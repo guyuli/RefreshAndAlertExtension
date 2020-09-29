@@ -1,5 +1,5 @@
-# Costco Autobuy Chrome Extension 
-This is a small chrome extension that can help you buy something immediately it gets in stock.
+# Refresh-And-Alert Chrome Extension 
+This is a small chrome extension that can refresh a page and alert you when an element changes
 
 Steps to install:
 1. Download the scripts
@@ -11,7 +11,5 @@ Steps to install:
 7. Make sure the extension is shown on top-right of the browser
 
 How to use:
-1. Open the costco webpage of the item you want to buy
-   e.g. https://www.costco.ca/Elizabeth-Arden-Ceramide-Advanced-Time-Complex-Capsules.product.100296958.html
+1. Open the web page you want to watch.
 2. Rememeber to keep the item webpage open.
-3. That's it! When the item gets in stock, a pop-up message will show and say "We've got something in stock!"
