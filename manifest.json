@@ -1,0 +1,21 @@
+{ 
+    "name": "Refresh And Alert", 
+    "manifest_version": 2,
+    "version": "1.0", 
+    "description": "Refresh And Alert", 
+    "browser_action": {
+    },
+    "permissions": [
+        "tabs", "http://*/*","https://*/*"
+    ],
+    "content_scripts": [ 
+        { 
+            "matches": ["https://www.ontarioimmigration.gov.on.ca/*"], 
+            "js": ["content.js"] 
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
